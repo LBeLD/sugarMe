@@ -81,7 +81,18 @@ body {
 
 }
 
+@media (max-width:480px){
+  .goBack {
+    width: 100px;
+  }
+  .logos {
+    width: 20px;
+  }
 
+  .copy {
+    font-size: 10px
+  }
+}
 
 /* Navbar decoration */
 .navbar-custom {
