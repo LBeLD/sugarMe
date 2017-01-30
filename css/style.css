@@ -1,0 +1,195 @@
+
+body {
+  font-family: 'Roboto', sans-serif;
+  position: relative;
+}
+
+.navbar-custom {
+  margin-bottom: 0;
+
+}
+
+
+.logo {
+  position: absolute;
+  top: 5px;
+}
+
+#header{
+  height: 400px;
+  background: url(../images/dark.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.tlt {
+  text-align: center;
+  padding-top: 150px;
+  color:#ffffff;
+  text-transform: uppercase;
+}
+
+
+}
+
+#services {
+  margin-top: 50px;
+}
+
+.col-lg-4 {
+  text-align: center;
+
+}
+
+.col-lg-4 img{
+ border: solid 1px  #000;
+ border-radius: 500px;
+ margin-bottom: 20px;
+}
+
+.col-lg-4 h2{
+  margin-bottom: 30px;
+}
+
+#aboutUs {
+  background-color: #000;
+  color:#ffffff;
+  text-align: justify;
+  padding: 50px 0;
+}
+
+
+
+#contact {
+  margin-top:30px;
+}
+
+.footer {
+  margin-top: 10px 0;
+  background-color: #000;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.footer span {
+  color: #ffffff;
+
+}
+
+@media (max-width:480px){
+  .goBack {
+    width: 100px;
+  }
+  .logos {
+    width: 20px;
+  }
+
+  .copy {
+    font-size: 10px
+  }
+}
+
+/* Navbar decoration */
+.navbar-custom {
+  background-color: #ffffff;
+  border-color: #eeeeee;
+  font-family: 'Courgette', cursive;
+  font-size: 1.2em;
+  font-weight: bold;
+
+}
+.navbar-custom .navbar-brand {
+  color: #0d0c0d;
+}
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus {
+  color: #000000;
+  background-color: transparent;
+}
+.navbar-custom .navbar-text {
+  color: #0d0c0d;
+}
+.navbar-custom .navbar-nav > li > a {
+  color: #0d0c0d;
+}
+.navbar-custom .navbar-nav > li > a:hover,
+.navbar-custom .navbar-nav > li > a:focus {
+  color: #cb1bbf;
+  background-color: transparent;
+}
+.navbar-custom .navbar-nav > .active > a,
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus {
+  color: #cb1bbf;
+  background-color: #eeeeee;
+}
+.navbar-custom .navbar-nav > .disabled > a,
+.navbar-custom .navbar-nav > .disabled > a:hover,
+.navbar-custom .navbar-nav > .disabled > a:focus {
+  color: #cccccc;
+  background-color: transparent;
+}
+.navbar-custom .navbar-toggle {
+  border-color: #dddddd;
+}
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+  background-color: #dddddd;
+}
+.navbar-custom .navbar-toggle .icon-bar {
+  background-color: #cccccc;
+}
+.navbar-custom .navbar-collapse,
+.navbar-custom .navbar-form {
+  border-color: #ededed;
+}
+.navbar-custom .navbar-nav > .dropdown > a:hover .caret,
+.navbar-custom .navbar-nav > .dropdown > a:focus .caret {
+  border-top-color: #cb1bbf;
+  border-bottom-color: #cb1bbf;
+}
+.navbar-custom .navbar-nav > .open > a,
+.navbar-custom .navbar-nav > .open > a:hover,
+.navbar-custom .navbar-nav > .open > a:focus {
+  background-color: #eeeeee;
+  color: #cb1bbf;
+}
+.navbar-custom .navbar-nav > .open > a .caret,
+.navbar-custom .navbar-nav > .open > a:hover .caret,
+.navbar-custom .navbar-nav > .open > a:focus .caret {
+  border-top-color: #cb1bbf;
+  border-bottom-color: #cb1bbf;
+}
+.navbar-custom .navbar-nav > .dropdown > a .caret {
+  border-top-color: #0d0c0d;
+  border-bottom-color: #0d0c0d;
+}
+@media (max-width: 767) {
+  .navbar-custom .navbar-nav .open .dropdown-menu > li > a {
+    color: #0d0c0d;
+  }
+  .navbar-custom .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-custom .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #cb1bbf;
+    background-color: transparent;
+  }
+  .navbar-custom .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #cb1bbf;
+    background-color: #eeeeee;
+  }
+  .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #cccccc;
+    background-color: transparent;
+  }
+}
+.navbar-custom .navbar-link {
+  color: #0d0c0d;
+}
+.navbar-custom .navbar-link:hover {
+  color: #cb1bbf;
+}
+
+

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<!-- saved from url=(0034)http://fiddle.jshell.net/_display/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="googlebot" content="noindex, nofollow">
+
+  
+  
+
+  
+  
+  
+
+  
+
+  <script type="text/javascript" src="./jquery-1.9.1.js"></script>
+
+  
+
+  
+
+  
+
+  
+    <link rel="stylesheet" type="text/css" href="./result-light.css">
+  
+
+  
+    
+      <link rel="stylesheet" type="text/css" href="./animate.css">
+    
+  
+    
+      <script type="text/javascript" src="./jquery.lettering.js"></script>
+    
+  
+    
+      <script type="text/javascript" src="./jquery.textillate.js"></script>
+    
+  
+
+  <style type="text/css">
+    
+  </style>
+
+  <title>Textillate Base</title>
+
+  
+    
+
+
+
+
+<script type="text/javascript">//<![CDATA[
+$(window).load(function(){
+$('.texts').textillate({
+		initialDelay: 0,
+    minDisplayTime: 1000, 
+    in: { effect: 'flipInX', sync: true }, 
+    out :{  delay: 0, effect: 'pulse', sync: true},
+    loop: true
+});
+});//]]> 
+
+</script>
+
+  
+</head>
+
+<body>
+  <h1 class="tlt">
+    <ul class="texts"><span style="visibility: hidden;"><span class="word1" style="display: inline-block; transform: translate3d(0px, 0px, 0px);"><span class="char1 animated pulse" style="display: inline-block; visibility: visible;">S</span><span class="char2 animated pulse" style="display: inline-block; visibility: visible;">o</span><span class="char3 animated pulse" style="display: inline-block; visibility: visible;">m</span><span class="char4 animated pulse" style="display: inline-block; visibility: visible;">e</span></span> <span class="word2" style="display: inline-block; transform: translate3d(0px, 0px, 0px);"><span class="char1 animated pulse" style="display: inline-block; visibility: visible;">T</span><span class="char2 animated pulse" style="display: inline-block; visibility: visible;">i</span><span class="char3 animated pulse" style="display: inline-block; visibility: visible;">t</span><span class="char4 animated pulse" style="display: inline-block; visibility: visible;">l</span><span class="char5 animated pulse" style="display: inline-block; visibility: visible;">e</span></span> </span><ul class="texts" style="display: none;"><li class="">
+        </li><li class="current">Some Title</li>   
+        <li class="">Another Title</li>
+        <li class="">Yet another</li>
+    </ul></ul>
+    <ul class="texts"><span style="visibility: hidden;"><span class="word1" style="display: inline-block; transform: translate3d(0px, 0px, 0px);"><span class="char1 animated pulse" style="display: inline-block; visibility: visible;">S</span><span class="char2 animated pulse" style="display: inline-block; visibility: visible;">o</span><span class="char3 animated pulse" style="display: inline-block; visibility: visible;">m</span><span class="char4 animated pulse" style="display: inline-block; visibility: visible;">e</span></span> <span class="word2" style="display: inline-block; transform: translate3d(0px, 0px, 0px);"><span class="char1 animated pulse" style="display: inline-block; visibility: visible;">T</span><span class="char2 animated pulse" style="display: inline-block; visibility: visible;">i</span><span class="char3 animated pulse" style="display: inline-block; visibility: visible;">t</span><span class="char4 animated pulse" style="display: inline-block; visibility: visible;">l</span><span class="char5 animated pulse" style="display: inline-block; visibility: visible;">e</span><span class="char6 animated pulse" style="display: inline-block; visibility: visible;">2</span></span> </span><ul class="texts" style="display: none;"><li class="">
+        </li><li class="current">Some Title2</li>   
+        <li class="">Another Title2</li>
+        <li class="">Yet another2</li>
+    </ul></ul>
+</h1>
+  
+  <script>
+  // tell the embed parent frame the height of the content
+  if (window.parent && window.parent.parent){
+    window.parent.parent.postMessage(["resultsFrame", {
+      height: document.body.getBoundingClientRect().height,
+      slug: "None"
+    }], "*")
+  }
+</script>
+
+
+
+
+
+</body></html>
